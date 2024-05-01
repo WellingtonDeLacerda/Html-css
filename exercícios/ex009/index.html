@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <style>
+        body{
+            text-align:center;
+        }
+        picture{ 
+            display:block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>reformatando imagem</h1>
+    <p>exemplo de reformatação de tamanho de imagem para o seu navegador</p>
+    
+    <picture>
+        <source media="(max-width:520px )" srcset="image/M.jpg" type="image/jpg">
+        <source media="(max-width:1430px )" srcset="image/P.png" type="image/png">
+        <img src="image/G.jpg">
+    </picture>
+</body>
+</html>
