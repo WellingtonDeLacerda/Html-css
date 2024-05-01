@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <style>
+        body{
+            font-family:serif;
+        }
+        div{
+            width:100px;
+        }
+        div > p{
+            display:none;
+        }
+        div:hover{
+            color:red;
+            
+        }
+        div:hover > p{
+            display:block;
+            background-color:red;
+            width:100px;
+            padding:5px;
+            color:white;
+            border:1px solid black;
+        }
+        a{
+            text-decoration:none;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>título do site</h1>
+    <div>clique aqui 
+    <p><a href="#">TEXTO ESCONDIDO....</a></p>
+    </div>
+    <p>fim do exemplo</p>
+    
+</body>
+</html>
