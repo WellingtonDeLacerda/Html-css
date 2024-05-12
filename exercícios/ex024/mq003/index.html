@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <link rel="stylesheet" href="estilo/paisagem.css">
+    <style>
+        body{
+            font-family: serif;
+            
+        }
+        #pc:before{
+            content: '<--';
+        }
+        #pc:after{
+            content: '-->';
+        }
+     @media screen and (orientation:portrait){
+         body{
+             background-color: green;
+             color:white;
+         }
+         #pc{
+             display:none;
+         }
+         #cel{
+            text-align:center;
+            text-shadow:2px 2px 3px black;
+         }
+     }
+    </style>
+</head>
+<body>
+    <h1 id="cel">versão para celulares</h1>
+    <h1 id="pc">versão para pcs,tablets</h1>
+</body>
+</html>
