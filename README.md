@@ -1,3 +1,3 @@
-<img src="https://wellingtondelacerda.github.io/Slime/imagem/rimuru.png" width="100%">
+<img src="https://wellingtondelacerda.github.io/Slime/imagem/rimuru.png" width="270px">
 
     
